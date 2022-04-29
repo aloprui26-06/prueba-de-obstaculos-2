@@ -5,12 +5,12 @@ basic.forever(function () {
         if (item == true) {
             maqueen.MotorRun(maqueen.aMotors.M1, maqueen.Dir.CW, 255)
             maqueen.MotorRun(maqueen.aMotors.M2, maqueen.Dir.CW, 0)
-            basic.pause(800)
+            basic.pause(700)
         }
         if (item == false) {
             maqueen.MotorRun(maqueen.aMotors.M1, maqueen.Dir.CW, 0)
             maqueen.MotorRun(maqueen.aMotors.M2, maqueen.Dir.CW, 255)
-            basic.pause(800)
+            basic.pause(700)
         }
     } else {
         maqueen.MotorRun(maqueen.aMotors.M1, maqueen.Dir.CW, 255)
