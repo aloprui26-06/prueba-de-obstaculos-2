@@ -8,6 +8,7 @@ basic.showLeds(`
     `)
 music.startMelody(music.builtInMelody(Melodies.PowerUp), MelodyOptions.Once)
 basic.pause(2000)
+basic.clearScreen()
 basic.forever(function () {
     if (maqueen.sensor(PingUnit.Centimeters) < 35 && maqueen.sensor(PingUnit.Centimeters) != 0) {
         item = Math.randomBoolean()
